@@ -1,0 +1,8 @@
+name: Test Workflow
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f1002390@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
